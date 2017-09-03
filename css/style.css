@@ -1,34 +1,309 @@
-body{
-	background-image: Virabhadra-Temple-Lepakshi.jpg
+/* setting up of background image*/
+html{
+
+	background: url(http://images.locanto.net/1548371826/VIZAG-CITY-TOUR-small-family-or-a-group-day_19.jpg) no-repeat center fixed; 
+    background-size: cover;
+    
+
 }
 
-header {background-color: Blue;}
+/* setting up the header*/
+header {
+	background-color: PowderBlue;
+    position: fixed;
+	width: 100%;
+}
+/* setting up logo*/
+.logo{
+ 	height: 150px;
+ 	width: 150px;
+ 	margin-left: 30px;
+ 	margin-top: 10px;
+}
 
+/* setting up Title of Page*/
+h1{
+
+display: inline;
+font-size: 70px;
+font-family: 'Lancelot', cursive;
+text-shadow: 2px 2px 4px Black;
+color:Red;
+margin-top: 10px;
+margin-left: 100px;
+
+
+}
+/* setting up subheading*/
+
+.sub{
+	margin-top: 100px;
+	text-align: right;
+	padding-right: 27%;
+    font-family: 'Milonga', cursive;
+}
+
+
+
+/* setting up image*/
+.pict{
+    margin-top: -170px;
+ 	margin-left:1000px;
+ 	height: 130px;
+ 	width: 250px;
+
+}
+/* setting up of navigation list*/
 nav li{
  
  display: inline;
- text-align: center;
- margin-right: 50px;
+ padding-left: 50px;
+ float:left;
  
- }
+}
+ /* setting up background of navigation bar*/
  .navigation{
- 	background:Orange;
- }
+ 	background:OrangeRed;
+ 	width: 100%;
+}
 
-li a{text-decoration: none;
-	color:black;
-	word-spacing: 5px;
-	font-family:sans-serif;
-	font-size: 15px;
-	font-style: italic; 
+/* setting up the search bar*/
+.for{
+   padding-right: 20px;
+   float:right;
+}
 
+/* styling list elements*/
+li a{
+	text-decoration: none;
+	color:Black;
+	text-align: center;
+	font-family:serif;
+	font-size: 20px;
+	font-style: italic;
 
 }
+/* styling of list elements when focussed on*/
 li a:hover{
   color:Blue;
+  background-color: Moccasin;
   text-decoration: underline;
 }
 
-h1{ 
-float:left;
+/* setting up of hero image*/
+ .image img{
+ 	width:100%;
+ 	height:550px;
+   margin-top: 130px;
 }
+/*Labelling the hero image*/
+ #name{
+   text-align: center;
+   background: White;
+   color: Black;
+ }
+
+/* setting up of hero paragraph background*/
+.hero{
+ 	background:Bisque;
+    color:Black;
+    text-align: justify;
+   	font-size:20px;
+ }
+ /* setting up of hero paragraph*/
+.hero1{
+    padding-left:10px;
+    padding-right: 10px;
+	font-size: 20px
+}
+
+
+/* setting up of paragraph style*/
+p{
+
+	font-size: 15px;
+	font-family: 'Philosopher', sans-serif;
+}
+/* setting up of Secondary heading*/
+h2{
+	font-family: 'Josefin Slab', serif;
+	text-decoration: underline;
+}
+ .side{
+ 	text-align: center;
+ 	font-size: 30px;
+ }
+
+
+ /* setting up of list items in 3column section*/
+ .menu{
+ 	text-decoration: none;
+	color:Black;
+	text-align: left;
+	font-family:sans-serif;
+	font-size: 10px;
+	font-style: italic;
+ }
+
+ /* setting up of first column in 3column section*/
+ .alpha {
+    padding-top: 0px;
+    background: Orange;
+    text-align: center;
+ 	
+ } 
+.alpha img{
+  margin-top: 0px;
+    height: 215px;
+ 	width: 275px;
+ }
+/* setting up of second column in 3column section*/
+ .beta {
+    padding-top: 0px;
+    background: Pink;
+     text-align: center;
+ 	
+ }
+ .beta img{
+  margin-top: 0px;
+    height: 215px;
+ 	width: 275px;
+ }
+/* setting up of third column in 3column section*/
+ .omega {
+    
+    background: LightGreen;
+     text-align: center;
+ 	
+ }
+ .omega img{
+
+ 	margin-top: 0px;
+ 	 height: 215px;
+ 	width: 275px;
+ }
+
+ /* setting up of first column in 2 column section*/
+ .gamma{
+ 	margin-top: 100px;
+ 	margin-left:0px;
+ 	float: left;
+
+ 	background:Gold;
+ }
+ .place{
+ 	margin-top: -20px;
+     margin-left: 0px;
+    height: 200px;
+ 	width: 250px; 	
+ }
+
+/* setting up of second column in 2 column section*/
+ .delta{
+ 	margin-top: 110px;
+ 	margin-left: 00px;
+ }
+ 
+ /* setting up of first row of second column in 2 column section*/
+ 
+ .mu {
+ 	background:SpringGreen;
+ 	margin-top: -55px;
+ 	text-align: center;
+ }
+ /* setting up of second row of second columns in 2 column section*/
+ .sigma {
+ 	background:Orchid;
+ 	text-align: center;
+ 	
+ }
+ /* setting up of third row in second column 2 column section*/
+  .phi {
+ 	background:Cyan;
+ 	text-align: center;
+ 	
+ }
+  /* setting up of footer*/
+
+ footer{
+
+ 	height:400px;
+ 	width:100%;
+ 	margin-top: 20px;
+ 	color:White;
+ 	background:DarkBlue;
+
+ }
+ /* setting up of first section of footer*/
+
+ .foo1{
+ 	text-align: left;
+ 	float: left;
+ 	width: 33%;
+ }
+  /* setting up of second section of footer*/
+
+ .foo2{
+    display: inline-block;
+ 	width: 33%;
+ 	text-align: center;
+ }
+  /* setting up of third section of footer*/
+
+ .foo3{
+ 	width: 33%;
+ 	float: right;
+ 	text-align: center;
+ }
+/* setting up of footer text*/
+
+.list3 li a{
+	color:White;
+	font-family: 'Dosis', sans-serif;
+}
+.list3 li a:hover{
+  color:Black;
+  background-color: Moccasin;
+  text-decoration: underline;
+}
+
+.foo3_1 ,h4{
+ 	font-family: 'Dosis', sans-serif;
+ }
+
+/* Icon styling*/
+ .fa {
+    padding: 10px;
+    font-size: 15px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+/* Youtube */
+.fa-youtube {
+    background: #ff0000;
+    color: white;
+}
+/* Quora */
+.fa-quora {
+    background: #a82400;
+    color: white;
+}
+/* Pinterest */
+.fa-pinterest {
+    background:#cb2027;
+    color: white;
+}
+
