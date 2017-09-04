@@ -69,6 +69,7 @@ nav li{
 
 /* setting up the search bar*/
 .for{
+    top:15px;
    padding-right: 20px;
    float:right;
 }
@@ -227,7 +228,7 @@ h2{
 
  footer{
 
- 	height:400px;
+ 	height:300px;
  	width:100%;
  	margin-top: 20px;
  	color:White;
@@ -246,11 +247,12 @@ h2{
  .foo2{
     display: inline-block;
  	width: 33%;
- 	text-align: center;
+ 	text-align: left;
  }
   /* setting up of third section of footer*/
 
  .foo3{
+  margin-top: -225px;
  	width: 33%;
  	float: right;
  	text-align: center;
